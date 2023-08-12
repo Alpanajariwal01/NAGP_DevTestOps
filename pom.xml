@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.nagarro.devops-tools.devops</groupId>
-	<artifactId>demosampleapplication</artifactId>
+	<artifactId>NAGP</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>Devops Sample Application</name>
