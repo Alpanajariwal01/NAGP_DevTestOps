@@ -23,9 +23,9 @@ pipeline{
             steps{
                 rtMavenDeployer(
                     id: 'deployer',
-                    serverId: 'practiceSession1@artifactory',
-                    releaseRepo: 'practiceSession1',
-                    snapshotRepo: 'practiceSession1'
+                    serverId: 'NAGP_DevTestOps@artifactory',
+                    releaseRepo: 'NAGP_DevTestOps',
+                    snapshotRepo: 'NAGP_DevTestOps'
                 )
                 rtMavenRun(
                     pom: 'pom.xml',
@@ -33,7 +33,7 @@ pipeline{
                     deployerId: 'deployer'
                     )
                 rtPublishBuildInfo(
-                    serverId: 'practiceSession1@artifactory',
+                    serverId: 'NAGP_DevTestOps@artifactory',
                 )
             }
     }
