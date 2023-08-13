@@ -3,6 +3,9 @@ pipeline{
       environment {
     notifyEmail ="alpana@nagarro.com"
   }
+    triggers {
+    	cron('0 06 * * *')
+  	}
     stages{
         stage("Code Checkout"){
             steps{
