@@ -50,6 +50,12 @@ pipeline{
             }
     }
     }
+    stage("Invoke UI Test Pipeline"){
+			steps{
+				build job: 'NAGP_Dev_Ops_Freestyle'
+			}
+		}
+    }
     post{
         success{
             bat "echo success"
