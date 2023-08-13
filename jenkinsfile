@@ -55,11 +55,10 @@ pipeline{
 				build job: 'NAGP_Dev_Ops_Freestyle'
 			}
 		}
-    }
     post{
         success{
             bat "echo success"
             }
         
         }
-
+}
