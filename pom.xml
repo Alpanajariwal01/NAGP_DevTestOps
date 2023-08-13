@@ -6,7 +6,7 @@
 	<artifactId>NAGP</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>Devops Sample Application</name>
+	<name>NAGP_DevTestOps</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
